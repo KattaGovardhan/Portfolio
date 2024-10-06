@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-blue: #00ffff;
+  --neon-pink: #ff00ff;
+  --neon-green: #00ff00;
+  --dark-bg: #121212;
+}
+
+body {
+  @apply bg-dark-bg text-white font-sans;
+}
+
+.neon-text {
+  @apply text-neon-blue;
+  text-shadow: 0 0 5px var(--neon-blue), 0 0 10px var(--neon-blue), 0 0 15px var(--neon-blue);
+}
+.neon-text1 {
+  @apply text-white; /* Solid white color for contrast */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), /* Soft white glow */
+               0 0 10px rgba(255, 255, 255, 0.5); /* Slightly wider glow */
+}
+
+.neon-box {
+  @apply border-neon-pink;
+  box-shadow: 0 0 5px var(--neon-pink), 0 0 10px var(--neon-pink);
+}
+
+.section-title {
+  @apply text-4xl font-bold mb-8;
+}
+
+.btn {
+  @apply px-6 py-2 rounded-full font-bold transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-neon-blue text-dark-bg hover:bg-neon-pink;
+}
+
+.nav-link {
+  @apply text-white hover:text-neon-blue transition-colors duration-300;
+}
+
+.nav-link:hover {
+  @apply neon-text;
+}
