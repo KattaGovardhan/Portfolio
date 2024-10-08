@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     title: 'Skin Cancer Detection using Machine Learning',
     description: 'Leveraging machine learning to detect skin cancer from images, improving diagnosis accuracy and facilitating early treatment.',
-    image: 'https://via.placeholder.com/300x200.png?text=E-commerce+Platform',
+    image: 'https://via.placeholder.com/300x200.png?text=Skin+Cancer+Detection',
     category: 'App',
     techStack: ['Python'],
     demoLink: 'https://example.com/ecommerce-demo',
