@@ -20,19 +20,9 @@ const projects = [
     image: 'https://via.placeholder.com/300x200.png?text=Personal+Portfolio',
     category: 'Web',
     techStack: ['React', 'JavaScript', 'TailwindCSS'],
-    demoLink: 'https://example.com/weather-dashboard-demo',
-    codeLink: 'https://github.com/yourusername/weather-forecast-dashboard',
-  },
-  {
-    id: 3,
-    title: 'Weather Forecast Dashboard',
-    description: 'A weather forecast dashboard using React and OpenWeatherMap API',
-    image: 'https://via.placeholder.com/300x200.png?text=Weather+Forecast+Dashboard',
-    category: 'Web',
-    techStack: ['React', 'Redux', 'OpenWeatherMap API'],
-    demoLink: 'https://example.com/weather-dashboard-demo',
-    codeLink: 'https://github.com/yourusername/weather-forecast-dashboard',
-  },
+    demoLink: 'https://govardhankatta-portfolio.vercel.app/',
+    codeLink: 'https://github.com/KattaGovardhan/Portfolio.git',
+  }
 ];
 
 const ProjectCard = ({ project }) => {
